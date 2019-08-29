@@ -1,0 +1,26 @@
+{
+  "name": "mrWatson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node ./src/server.ts",
+    "start": "nodemon ./src/server.js",
+    "prod": "npm run build && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.7",
+    "morgan": "^1.9.1",
+    "node-mrswatson": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.0"
+  }
+}
